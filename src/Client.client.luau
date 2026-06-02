@@ -24,5 +24,6 @@ Client:Start()
 
 Client:Print(string.format("Memory Used %s (KB)", MemUsage))
 Client:Print("Report any bugs you find to the developer!")
+
 local Camera = workspace.CurrentCamera
 Camera.FieldOfView = 65
