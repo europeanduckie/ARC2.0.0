@@ -1,0 +1,43 @@
+{
+  "name": "Framework 3.0",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Core": {
+        "$path": "src/Core",
+          "Shared": {
+            "$path": "src/Shared"
+          },
+
+
+        "Framework": {
+          "$path": "src/Framework.luau"
+        }
+      }
+    },
+
+    "ServerScriptService": {
+        "Server": {
+          "$path": "src/Server.server.luau"
+        },
+        "Modules": {
+          "$path": "src/Server"
+        },
+        "ServerPackages": {
+          "$path": "src/ServerPackages"
+        }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/Client.client.luau"
+        },
+        "Modules": {
+          "$path": "src/Client"
+        }
+      }
+    }
+  }
+}
