@@ -1,7 +1,6 @@
 -- # Services
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local StarterPlayer = game:GetService("StarterPlayer")
-
 -- # Dependencies
 
 local Core = ReplicatedStorage:FindFirstChild("Core")
